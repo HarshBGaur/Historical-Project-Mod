@@ -53,6 +53,7 @@ nv_productivity = {
     social_reform_desire = 0.05
     factory_throughput = 0.05
     RGO_throughput = 0.2
+    RGO_output = 1
     artisan_throughput = 0.05
     commerce_tech_research_bonus = 0.05
     culture_tech_research_bonus = 0.05
