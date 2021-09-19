@@ -1,4 +1,4 @@
-capital = 1251
+capital = 1299
 primary_culture = marathi
 culture = avadhi
 culture = bihari
@@ -14,8 +14,8 @@ culture = oriya
 religion = hindu
 government = democracy
 plurality = 0.0
-nationalvalue = nv_equality
-literacy = 0.02
+nationalvalue = nv_productivity
+literacy = 0.1
 
 ruling_party = HND_conservative
 upper_house = {

@@ -3,5 +3,5 @@ controller = BIK
 add_core = BIK
 add_core = MUG
 add_core = HND
-trade_goods = wool
-life_rating = 32
+trade_goods = grain
+life_rating = 45 #32

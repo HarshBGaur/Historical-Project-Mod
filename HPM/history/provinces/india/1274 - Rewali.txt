@@ -3,5 +3,5 @@ controller = BUN
 add_core = BUN
 add_core = MUG
 add_core = HND
-trade_goods = cattle
-life_rating = 32
+trade_goods = grain
+life_rating = 45 #32

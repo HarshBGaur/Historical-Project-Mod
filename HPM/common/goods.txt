@@ -37,15 +37,15 @@ military_goods = {
 
 raw_material_goods = {
     cotton = {
-        cost = 2.0
+        cost = 2.5
         color = { 255 255 255 }
     }
     dye = {
-        cost = 12.00
+        cost = 19.00
         color = { 69 0 182 }
     }
     wool = {
-        cost = 0.7
+        cost = 1.2
         color = { 234 195 158 }
     }
     silk = {
@@ -81,13 +81,13 @@ raw_material_goods = {
         color = { 0 0 0 }
     }
     precious_metal = {
-        cost = 8
+        cost = 12
         tradeable = no
         money = yes
         color = { 253 199 110 }
     }
     precious_goods = {
-        cost = 7
+        cost = 10
         tradeable = no
         money = yes
         color = { 247 241 61 }

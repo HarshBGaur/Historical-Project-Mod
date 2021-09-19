@@ -3,5 +3,5 @@ controller = JAI
 add_core = JAI
 add_core = MEW
 add_core = HND
-trade_goods = cotton
-life_rating = 32
+trade_goods = coal
+life_rating = 45 #32

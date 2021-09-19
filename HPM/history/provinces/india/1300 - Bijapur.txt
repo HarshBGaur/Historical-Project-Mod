@@ -2,5 +2,5 @@ owner = MAH
 controller = MAH
 add_core = HND
 add_core = MAH
-trade_goods = fruit
-life_rating = 32
+trade_goods = coal
+life_rating = 45 #32

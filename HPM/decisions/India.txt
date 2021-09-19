@@ -583,11 +583,15 @@ political_decisions = {
     rangit_singh = {
     picture = rangit_singh
         potential = {
-            tag = PNJ
+            OR = {
+                religion = hindu
+                tag = PNJ
+            }
             NOT = { has_country_flag = singh }
         }
         allow = {
-            has_leader = "Ranjit Singh"
+            #has_leader = "Ranjit Singh"
+            is_vassal = no
         }
         effect = {
             set_country_flag = singh

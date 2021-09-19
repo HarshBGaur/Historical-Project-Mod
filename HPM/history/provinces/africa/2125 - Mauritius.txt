@@ -1,6 +1,7 @@
 owner = ENG
 controller = ENG
-trade_goods = fruit
+add_core = HND
+trade_goods = silk
 life_rating = 35
 colonial = 2
 terrain = mountain

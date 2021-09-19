@@ -668,7 +668,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 1000
+        size = 9000
     }
 
     farmers = {
@@ -802,7 +802,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 150
+        size = 3150
     }
 
     farmers = {
@@ -864,7 +864,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 100
+        size = 3100
     }
 
     farmers = {
@@ -956,7 +956,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 250
+        size = 4250
     }
 
     farmers = {
@@ -1018,7 +1018,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 150
+        size = 3150
     }
 
     farmers = {
@@ -1116,7 +1116,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 250
+        size = 5250
     }
 
     farmers = {
@@ -1214,7 +1214,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 1500
+        size = 9500
     }
 
     farmers = {
@@ -1312,7 +1312,7 @@
     soldiers = {
         culture = panjabi
         religion = hindu
-        size = 600
+        size = 6000
     }
 
     farmers = {

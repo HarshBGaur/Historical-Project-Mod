@@ -1,11 +1,14 @@
 capital = 1227
 primary_culture = panjabi
-religion = sikh
+culture = marathi
+culture = sindi
+culture = rajput
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
-nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0.01
+nationalvalue = nv_productivity
+literacy = 0.2
+non_state_culture_literacy = 0.1
 
 ruling_party = PNJ_conservative
 upper_house = {
@@ -71,4 +74,4 @@ child_labor = child_labor_legal
 citizens_rights = culture_voting_only
 border_policy = open_borders
 
-set_country_flag = sikh_country
+set_country_flag = hindu_country

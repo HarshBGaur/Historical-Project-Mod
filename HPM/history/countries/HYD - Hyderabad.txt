@@ -2,12 +2,12 @@ capital = 1283
 primary_culture = avadhi
 culture = marathi
 culture = telegu
-religion = sunni
+religion = hindu
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
-non_state_culture_literacy = 0.01
+literacy = 0.3
+non_state_culture_literacy = 0.1
 
 # Political reforms
 slavery = no_slavery
@@ -47,7 +47,7 @@ upper_house = {
     communist = 0
 }
 
-set_country_flag = sunni_country
+set_country_flag = hindu_country
 foreign_artillery = yes_foreign_artillery
 foreign_weapons = yes_foreign_weapons
 

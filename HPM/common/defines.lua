@@ -89,7 +89,7 @@ country = {
     COLONIZATION_INFLUENCE_TEMPERATURE_PER_DAY = 0.08,
     COLONIZATION_INFLUENCE_TEMPERATURE_PER_LEVEL = 0.005,
     PARTY_LOYALTY_HIT_ON_WAR_LOSS = 0.95, -- Drops the ruling party loyalty if war is lost.
-    RESEARCH_POINTS_ON_CONQUER_MULT = 200, -- multiplier to RP got by conquering as unciv when got enacted military reforms
+    RESEARCH_POINTS_ON_CONQUER_MULT = 400, -- multiplier to RP got by conquering as unciv when got enacted military reforms
     MAX_RESEARCH_POINTS = 28000, -- max RP you can store for uncivs
 },
 
@@ -672,7 +672,7 @@ pops = {
 
     POP_TO_LEADERSHIP = 0.0001, -- how much leadership every 1000 officers gives each day.
     ARTISAN_MIN_PRODUCTIVITY = 5, -- Minimum efficiency of an artisan
-    SLAVE_GROWTH_DIVISOR = 10, -- Slaves have N times lower growth
+    SLAVE_GROWTH_DIVISOR = 2, -- Slaves have N times lower growth
 
     MIL_HIT_FROM_CONQUEST = 4, -- how much militancy grows in a province if taken without being core.
     LUXURY_CON_CHANGE = 0.001, -- con boost from over-buying luxury goods

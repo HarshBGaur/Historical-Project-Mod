@@ -2,5 +2,5 @@ owner = SIK
 controller = SIK
 add_core = SIK
 add_core = HND
-trade_goods = wool
-life_rating = 32
+trade_goods = fruit
+life_rating = 45 #32
