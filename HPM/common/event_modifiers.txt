@@ -2124,12 +2124,14 @@ taiping_draft = {
 ### Panjab ###
 shastar_vidya = {
     org_regain = 0.1
-    land_organisation = 0.1
-    land_unit_start_experience = 30
-    mobilisation_size = 0.17
-    war_exhaustion = -0.1
-    research_points_modifier = 0.15
-    farm_rgo_size = 1
+    land_organisation = 0.2
+    land_unit_start_experience = 40
+    mobilisation_size = 0.5
+    war_exhaustion = -0.5
+    cb_generation_speed_modifier=-0.5
+    badboy = -0.1
+    research_points_modifier = 0.5
+    farm_rgo_size = 3
     icon = 11
 }
 

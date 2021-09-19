@@ -2372,7 +2372,7 @@
     slaves = {
         culture = panjabi
         religion = hindu
-        size = 4000
+        size = 40000
     }
 }
 #Khurasan Region (600000)

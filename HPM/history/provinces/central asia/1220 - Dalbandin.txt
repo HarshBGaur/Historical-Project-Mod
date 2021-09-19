@@ -2,6 +2,7 @@ owner = KAL
 controller = KAL
 add_core = KAL
 add_core = BLC
+add_core = PNJ
 add_core = HND
 trade_goods = coal
 life_rating = 35

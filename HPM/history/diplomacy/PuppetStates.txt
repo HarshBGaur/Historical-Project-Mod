@@ -250,12 +250,12 @@ vassal = {
 }
 
 # United Kingdom-Bahawalpur
-vassal = {
-    first = ENG
-    second = BHP
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
+#vassal = {
+#    first = ENG
+#    second = BHP
+#    start_date = 1836.1.1
+#    end_date = 1936.1.1
+#}
 
 # United Kingdom-Awadh
 vassal = {

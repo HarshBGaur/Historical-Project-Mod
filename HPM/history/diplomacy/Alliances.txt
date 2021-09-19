@@ -96,12 +96,12 @@ alliance = {
         end_date = 1936.1.1
     }
 
-alliance = {
-        first = ENG
-        second = BHP
-        start_date = 1835.1.1
-        end_date = 1936.1.1
-    }
+#alliance = {
+#        first = ENG
+#        second = BHP
+#        start_date = 1835.1.1
+#        end_date = 1936.1.1
+#    }
 #########Prussia and their allies
 alliance = {
         first = PRU

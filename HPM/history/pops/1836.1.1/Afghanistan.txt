@@ -131,19 +131,19 @@
     slaves = {
         culture = panjabi
         religion = sikh
-        size = 14500
+        size = 54500
     }
 
     slaves = {
-        culture = uzbek
-        religion = sunni
-        size = 27500
+        culture = panjabi
+        religion = hindu
+        size = 97500
     }
 
     slaves = {
-        culture = hazara
-        religion = sunni
-        size = 18000
+        culture = pashtun
+        religion = hindu
+        size = 58000
     }
 }
 #Balkh (516000/129000 POPS)
@@ -240,8 +240,8 @@
 
     slaves = {
         culture = pashtun
-        religion = sunni
-        size = 15000
+        religion = hindu
+        size = 95000
     }
 }
 #Herat (324000/81000 POPS)
@@ -337,9 +337,9 @@
     }
 
     slaves = {
-        culture = uzbek
-        religion = sunni
-        size = 6500
+        culture = baluchi
+        religion = hindu
+        size = 86500
     }
 }
 #Bamyan (412000/103000 POPS)
@@ -465,9 +465,9 @@
     }
 
     slaves = {
-        culture = uzbek
-        religion = sunni
-        size = 8500
+        culture = baluchi
+        religion = hindu
+        size = 78500
     }
 }
 #Farrah (464000/116000 POPS)
@@ -533,9 +533,9 @@
     }
 
     slaves = {
-        culture = persian
-        religion = sunni
-        size = 24000
+        culture = baluchi
+        religion = hindu
+        size = 94000
     }
 }
 #Kandahar (368000/92000 POPS)
@@ -601,9 +601,15 @@
     }
 
     slaves = {
-        culture = hazara
-        religion = sunni
-        size = 3000
+        culture = baluchi
+        religion = hindu
+        size = 33000
+    }
+
+    slaves = {
+        culture = baluchi
+        religion = sikh
+        size = 30000
     }
 }
 #Jalalabad (268000/67000 POPS)
@@ -647,7 +653,7 @@
     slaves = {
         culture = panjabi
         religion = sikh
-        size = 3700
+        size = 43700
     }
 }
 #Ghazni (324000/81000 POPS)
@@ -714,8 +720,8 @@
 
     slaves = {
         culture = hazara
-        religion = sunni
-        size = 3300
+        religion = hindu
+        size = 23300
     }
 }
 #Badakhshan Region (340000)
@@ -801,9 +807,15 @@
     }
 
     slaves = {
-        culture = tajik
-        religion = sunni
-        size = 6000
+        culture = baluchi
+        religion = sikh
+        size = 33000
+    }
+
+    slaves = {
+        culture = baluchi
+        religion = hindu
+        size = 26000
     }
 
 }
@@ -898,6 +910,12 @@
         culture = hazara
         religion = sunni
         size = 6306
+    }
+
+    slaves = {
+        culture = baluchi
+        religion = hindu
+        size = 16000
     }
 
 }

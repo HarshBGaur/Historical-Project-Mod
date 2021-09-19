@@ -278,9 +278,9 @@
     }
 
     slaves = {
-        culture = kilombero #african_minor
-        religion = animist
-        size = 4000
+        culture = baluchi #1231
+        religion = hindu
+        size = 60000
     }
 }
 #Under the Rule of Makran 1836
@@ -326,6 +326,12 @@
         culture = baluchi
         religion = sunni
         size = 25800
+    }
+
+    slaves = {
+        culture = panjabi #african_minor
+        religion = hindu
+        size = 75000
     }
 
     slaves = {
@@ -674,7 +680,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 78600
+        size = 178600
     }
 
     aristocrats = {
@@ -808,7 +814,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 16500
+        size = 86500
     }
 }
 #Sialkot (548000/137000 POPS)
@@ -870,7 +876,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 8700
+        size = 78700
     }
 }
 #Attock (344000/87000 POPS)
@@ -962,7 +968,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 26225
+        size = 56225
     }
 }
 #Bahawalpur (352000/88000 POPS)
@@ -1024,7 +1030,13 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 16575
+        size = 66575
+    }
+
+    slaves = {
+        culture = panjabi #1231
+        religion = hindu
+        size = 30000
     }
 }
 #Shahpur (1132000/283000 POPS)
@@ -1122,7 +1134,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 26700
+        size = 126700
     }
 }
 #Amritsar (2228000/557000 POPS)
@@ -1190,7 +1202,7 @@
     farmers = {
         culture = panjabi
         religion = sunni
-        size = 290500
+        size = 190500
     }
 
     aristocrats = {
@@ -1220,7 +1232,7 @@
     farmers = {
         culture = panjabi
         religion = hindu
-        size = 153750
+        size = 293750
     }
 }
 #Firuzapur (952000/238000 POPS)
@@ -7438,7 +7450,7 @@
     slaves = {
         culture = marathi
         religion = hindu
-        size = 5000
+        size = 55000
     }
 
 }
@@ -8172,7 +8184,7 @@
     slaves = {
         culture = tamil
         religion = hindu
-        size = 5000
+        size = 85000
     }
 
 }

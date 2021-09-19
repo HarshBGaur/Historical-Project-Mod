@@ -2989,7 +2989,7 @@
     slaves = {
         culture = malay
         religion = hindu
-        size = 20000
+        size = 120000
     }
 }
 #Lombok (200000/50000 POPS)

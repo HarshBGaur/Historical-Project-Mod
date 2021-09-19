@@ -53,7 +53,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 24900
+        size = 54900
     }
 }
 #Chonchon (796000/190000 POPS)
@@ -103,7 +103,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 25000
+        size = 55000
     }
 }
 #Hamgyong Region (920000)
@@ -155,7 +155,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 11000
+        size = 51000
     }
 }
 #Chongjin (360000/90000 POPS)
@@ -193,7 +193,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 17000
+        size = 57000
     }
 }
 #Kimchaek (260000/65000 POPS)
@@ -231,7 +231,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 12000
+        size = 42000
     }
 }
 #Kyonggi Region (2620000)
@@ -307,7 +307,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 11625
+        size = 71625
     }
 }
 #Kaesong (280000/70000 POPS)
@@ -351,7 +351,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 4000
+        size = 24000
     }
 }
 #Haeju (260000/65000 POPS)
@@ -395,7 +395,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 18000
+        size = 58000
     }
 }
 #Sariwon (340000/85000 POPS)
@@ -451,7 +451,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 10000
+        size = 40000
     }
 }
 #Inchon (560000/140000 POPS)
@@ -501,7 +501,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 10000
+        size = 60000
     }
 }
 #Gangwon Region (920000)
@@ -603,7 +603,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 10000
+        size = 40000
     }
 }
 #Wonju (280000/70000 POPS)
@@ -647,7 +647,7 @@
     slaves = {
         culture = korean
         religion = mahayana
-        size = 9000
+        size = 29000
     }
 }
 #Kyongsang Region (1800000)
