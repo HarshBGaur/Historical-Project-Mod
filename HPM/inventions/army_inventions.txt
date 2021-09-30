@@ -1196,7 +1196,7 @@ cuirassier_activation = {
     chance = {
         base = 2
         modifier = {
-            factor = -2
+            factor = 1
             not = { civilized = yes }
         }
     }
@@ -1209,7 +1209,7 @@ dragoon_activation = {
     chance = {
         base = 2
         modifier = {
-            factor = -2
+            factor = 1
             not = { civilized = yes }
         }
     }
@@ -1222,7 +1222,7 @@ hussar_activation = {
     chance = {
         base = 2
         modifier = {
-            factor = -2
+            factor = 1
             not = { civilized = yes }
         }
     }

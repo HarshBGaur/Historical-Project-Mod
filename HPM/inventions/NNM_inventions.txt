@@ -11,10 +11,10 @@ declaration_of_the_rights_of_man = {
             factor = 5
             average_militancy = 4
         }
-        modifier = {
-            factor = -9
-            civilized = no
-        }
+        #modifier = {
+        #    factor = -9
+        #    civilized = no
+        #}
     }
     effect = {
         rebel_org_gain = {
@@ -128,10 +128,10 @@ spirit_of_freedom = {
             factor = 5
             year = 1847
         }
-        modifier = {
-            factor = -12
-            civilized = no
-        }
+        #modifier = {
+        #    factor = -12
+        #    civilized = no
+        #}
     }
     effect = {
         rebel_org_gain = {

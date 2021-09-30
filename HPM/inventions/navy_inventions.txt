@@ -292,7 +292,7 @@ building_station_shipyards = {
             naval_design_bureaus = 1
         }
         modifier = {
-            factor = -6
+            factor = 1
             NOT = { civilized = yes }
         }
         modifier = {
@@ -417,10 +417,10 @@ steamer_shipyard_construction = {
             factor = 3
             raider_group_doctrine = 1
         }
-        modifier = {
-            factor = -10
-            civilized = no
-        }
+        #modifier = {
+        #    factor = -10
+        #    civilized = no
+        #}
     }
     effect = {
         activate_building = steamer_shipyard
@@ -442,10 +442,10 @@ steamer_automatic_construction_plants = {
             invention = building_station_shipyards
         }
 
-        modifier = {
-            factor = -10
-            civilized = no
-        }
+        #modifier = {
+        #    factor = -10
+        #    civilized = no
+        #}
     }
     effect = {
         factory_goods_throughput = {
@@ -465,10 +465,10 @@ mechanized_fishing_vessels = {
             factor = 2
             invention = work_specialization
         }
-        modifier = {
-            factor = -10
-            civilized = no
-        }
+        #modifier = {
+        #    factor = -10
+        #    civilized = no
+        #}
     }
     effect = {
         rgo_goods_output = {

@@ -540,9 +540,39 @@ leader = {
     picture = european_general_36
     type = land
     date = 1836.1.1
-    background = school_of_firepower
+    background = cursed_luck
     personality = implacable
     prestige = 0.75
+}
+
+leader = {
+    name = "Vidar von Moltke"
+    picture = european_general_36
+    type = land
+    date = 1836.1.1
+    background = cursed_luck
+    personality = implacable
+    prestige = 0.05
+}
+
+leader = {
+    name = "Hitler von Moltke"
+    picture = european_general_36
+    type = land
+    date = 1836.1.1
+    background = cursed_luck
+    personality = implacable
+    prestige = 0.05
+}
+
+leader = {
+    name = "Tanya von Moltke"
+    picture = european_general_36
+    type = land
+    date = 1836.1.1
+    background = cursed_luck
+    personality = implacable
+    prestige = 0.05
 }
 
 leader = {
@@ -570,7 +600,7 @@ leader = {
     picture = european_general_27
     type = land
     date = 1826.1.1
-    background = cartographer
+    background = cursed_luck
     personality = audacious
     prestige = 0.3
 }
@@ -580,7 +610,7 @@ leader = {
     picture = pru_gen_boyen
     date = 1813.1.1
     type = land
-    personality = openminded
+    personality = audacious
     background = gifted_administrator
     prestige = 0.5
 }
@@ -600,7 +630,7 @@ leader = {
     picture = pru_gen_prinzkarl
     date = 1824.1.1
     type = land
-    personality = indifferent
+    personality = audacious
     background = armchair_general
     prestige = 0.8
 }
@@ -610,7 +640,7 @@ leader = {
     picture = pru_gen_prinzwilhelm
     date = 1836.1.1
     type = land
-    personality = soldierly
+    personality = audacious
     background = aristocrat
     prestige = 0.9
 }

@@ -1190,7 +1190,7 @@ industrial_furniture_production = {
     chance = {
         base = 2
         modifier = {
-            factor = 1
+            factor = 5
             prestige = 30
         }
         modifier = {
@@ -1246,10 +1246,10 @@ industrial_sawmills = {
             factor = 1
             ruling_party_ideology = liberal
         }
-        modifier = {
-            factor = -10
-            NOT = { piston_steam_engine = 1 }
-        }
+        #modifier = {
+        #    factor = -10
+        #    NOT = { piston_steam_engine = 1 }
+        #}
     }
     effect = {
         activate_building = lumber_mill
@@ -1269,10 +1269,10 @@ canning_process = {
             factor = 1
             ruling_party_ideology = liberal
         }
-        modifier = {
-            factor = -10
-            NOT = { piston_steam_engine = 1 }
-        }
+        #modifier = {
+        #    factor = -10
+        #    NOT = { piston_steam_engine = 1 }
+        #}
     }
     effect = {
         activate_building = canned_food_factory
