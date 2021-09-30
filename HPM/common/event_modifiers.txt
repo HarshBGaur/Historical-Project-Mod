@@ -2123,15 +2123,21 @@ taiping_draft = {
 
 ### Panjab ###
 shastar_vidya = {
+
+    education_efficiency_modifier = 5
+    administrative_efficiency_modifier = 0.05
     org_regain = 0.1
-    land_organisation = 0.2
+    land_organisation = 0.1
     land_unit_start_experience = 40
-    mobilisation_size = 0.5
-    war_exhaustion = -0.5
-    cb_generation_speed_modifier=-0.5
-    badboy = -0.1
-    research_points_modifier = 0.5
-    farm_rgo_size = 3
+    mobilisation_size = -0.02
+    war_exhaustion = -0.1
+    cb_generation_speed_modifier=0.5
+    badboy = -1
+    research_points_modifier = 1.5
+    farm_rgo_size = 2
+	RGO_output = 0.5
+    global_assimilation_rate = 1
+    social_reform_desire = 1
     icon = 11
 }
 

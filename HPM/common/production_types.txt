@@ -9,7 +9,7 @@ factory_template = {
     owner = {
         poptype = capitalists
         effect = input
-        effect_multiplier = -2.5
+        effect_multiplier = -15
     }
 
     employees = {
@@ -21,7 +21,7 @@ factory_template = {
         {
             poptype = clerks
             effect = output
-            effect_multiplier = 1.5
+            effect_multiplier = 2
             amount = 0.2
         }
 
@@ -38,7 +38,7 @@ cheap_factory_template = {
     owner = {
         poptype = capitalists
         effect = input
-        effect_multiplier = -1.5
+        effect_multiplier = -15
     }
 
     employees = {
@@ -67,7 +67,7 @@ machine_part_user_template = {
     owner = {
         poptype = capitalists
         effect = input
-        effect_multiplier = -2.5
+        effect_multiplier = -15
     }
 
     employees = {
@@ -97,7 +97,7 @@ cement_template = {
     owner = {
         poptype = capitalists
         effect = input
-        effect_multiplier = -2.5
+        effect_multiplier = -15
     }
 
     employees = {

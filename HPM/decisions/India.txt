@@ -1,5 +1,189 @@
 political_decisions = {
 
+	PNJ_embrace_sinhala_minority = {
+        picture = form_rajputana
+        potential = {
+			OR = { 
+				tag = PNJ
+                is_culture_group = south_asian
+                is_culture_group = indo_iranian
+				ai = no 
+			} 
+			#sinhala
+            NOT = { has_country_flag = embraced_sinhala }
+            any_owned_province = { culture = sinhala }
+        }
+
+        allow = {
+            enlightenment_thought = 1
+            malthusian_thought = 1
+            religious_policy = pluralism
+        }
+
+        effect = {
+            prestige = 10
+            add_accepted_culture = sinhala
+            set_country_flag = embraced_sinhala
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    PNJ_embrace_nepali_minority = {
+        picture = form_rajputana
+        potential = {
+			OR = { 
+				tag = PNJ
+                is_culture_group = south_asian
+                is_culture_group = indo_iranian
+				ai = no 
+			} 
+			#nepali
+            NOT = { has_country_flag = embraced_nepali }
+            any_owned_province = { culture = nepali }
+        }
+
+        allow = {
+            enlightenment_thought = 1
+            malthusian_thought = 1
+            religious_policy = pluralism
+        }
+
+        effect = {
+            prestige = 10
+            add_accepted_culture = nepali
+            set_country_flag = embraced_nepali
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    PNJ_embrace_tamil_minority = {
+        picture = form_dravidistan
+        potential = {
+			OR = { 
+				tag = PNJ
+                is_culture_group = south_asian
+                is_culture_group = indo_iranian
+				ai = no 
+			} 
+			#tamil
+            NOT = { has_country_flag = embraced_tamil }
+            any_owned_province = { culture = tamil }
+        }
+
+        allow = {
+            enlightenment_thought = 1
+            malthusian_thought = 1
+            religious_policy = pluralism
+        }
+
+        effect = {
+            prestige = 10
+            add_accepted_culture = tamil
+            set_country_flag = embraced_tamil
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    PNJ_embrace_kannada_minority = {
+        picture = form_dravidistan
+        potential = {
+			OR = { 
+				tag = PNJ
+                is_culture_group = south_asian
+                is_culture_group = indo_iranian
+				ai = no 
+			} 
+			#kannada
+            NOT = { has_country_flag = embraced_kannada }
+            any_owned_province = { culture = kannada }
+        }
+
+        allow = {
+            enlightenment_thought = 1
+            malthusian_thought = 1
+            religious_policy = pluralism
+        }
+
+        effect = {
+            prestige = 10
+            add_accepted_culture = kannada
+            set_country_flag = embraced_kannada
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    PNJ_embrace_telegu_minority = {
+        picture = form_dravidistan
+        potential = {
+			OR = { 
+				tag = PNJ
+                is_culture_group = south_asian
+                is_culture_group = indo_iranian
+				ai = no 
+			} 
+			# telegu
+            NOT = { has_country_flag = embraced_telegu }
+            any_owned_province = { culture = telegu }
+        }
+
+        allow = {
+            enlightenment_thought = 1
+            malthusian_thought = 1
+            religious_policy = pluralism
+        }
+
+        effect = {
+            prestige = 10
+            add_accepted_culture = telegu
+            set_country_flag = embraced_telegu
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    PNJ_embrace_malayalam_minority = {
+        picture = form_dravidistan
+        potential = {
+			OR = { 
+				tag = PNJ
+				ai = no 
+			} 
+			# malayalam
+            NOT = { has_country_flag = embraced_malayalam }
+            any_owned_province = { culture = malayalam }
+        }
+
+        allow = {
+            enlightenment_thought = 1
+            malthusian_thought = 1
+            religious_policy = pluralism
+        }
+
+        effect = {
+            prestige = 10
+            add_accepted_culture = malayalam
+            set_country_flag = embraced_malayalam
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
     form_dravidistan = {
     picture = form_dravidistan
         potential = {
@@ -620,12 +804,27 @@ political_decisions = {
                 months = 12
             }
             casus_belli = {
+                target = AFG
+                type = conquest
+                months = 120
+            }
+            casus_belli = {
+                target = PER
+                type = conquest
+                months = 120
+            }
+            casus_belli = {
                 target = KAL
                 type = conquest
                 months = 60
             }
             casus_belli = {
                 target = SIN
+                type = conquest
+                months = 60
+            }
+            casus_belli = {
+                target = MAK
                 type = conquest
                 months = 60
             }
@@ -638,7 +837,10 @@ political_decisions = {
     PNJ_embrace_pashtun_minority = {
         picture = sikh_empire
         potential = {
-            tag = PNJ
+			OR = { 
+				tag = PNJ
+				ai = no 
+			}
             NOT = { has_country_flag = embraced_pashtun }
             any_owned_province = { culture = pashtun }
         }
@@ -663,7 +865,10 @@ political_decisions = {
     PNJ_embrace_sindi_minority = {
         picture = sikh_empire
         potential = {
-            tag = PNJ
+			OR = { 
+				tag = PNJ
+				ai = no 
+			}
             NOT = { has_country_flag = embraced_sindi }
             any_owned_province = { culture = sindi }
         }
@@ -688,7 +893,10 @@ political_decisions = {
     PNJ_embrace_avadhi_minority = {
         picture = sikh_empire
         potential = {
-            tag = PNJ
+			OR = { 
+				tag = PNJ
+				ai = no 
+			}
             NOT = { has_country_flag = embraced_avadhi }
             any_owned_province = { culture = avadhi }
         }
@@ -1189,4 +1397,135 @@ political_decisions = {
         }
         ai_will_do = { factor = 1 }
     }
+	
+	demand_retreat_from_india = {
+		picture = form_india
+		potential = {
+            OR = {
+                religion = hindu
+                tag = PNJ
+                is_culture_group = south_asian
+                is_culture_group = indo_iranian
+                ai = no
+            }
+			ENG = {
+				OR = {
+					owns = 1236
+					owns = 1247
+					owns = 1251
+					owns = 1275
+					owns = 1297
+				}
+				NOT = {
+					has_global_flag = british_dismantled
+					has_country_flag = refused_indian_retreat
+				}
+			}
+			NOT = {
+				has_country_flag = demanded_indian_retreat
+				HND = { exists = yes }
+			}
+		}
+		
+		allow = {
+			civilized = yes
+			ENG = {
+				war_with = THIS
+				war_exhaustion = 25
+			}
+			1236 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+				province_control_days = 90
+			}
+			1247 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+				province_control_days = 90
+			}
+			1251 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+				province_control_days = 90
+			}
+			1275 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+				province_control_days = 90
+			}
+			1297 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+				province_control_days = 90
+			}
+		}
+		
+		effect = {
+			set_country_flag = demanded_indian_retreat
+			ENG = {
+				any_owned = {
+					limit = { is_core = THIS }
+					secede_province = THIS
+				}
+				country_event = 97122991
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	move_capital_to_delhi = {
+		picture = form_india
+		potential = {
+            OR = {
+                religion = hindu
+                tag = PNJ
+                tag = HND
+                owns = 1236 # Delhi
+            }
+			NOT = { capital = 1236 }
+		}	
+		
+		allow = {
+			tag = HND
+			owns = 1236 # Delhi
+			NOT = { capital = 1236 }
+		}
+		
+		effect = {
+			capital = 1236
+			prestige = 5
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

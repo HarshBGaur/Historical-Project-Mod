@@ -1099,3 +1099,212 @@ country_event = {
         }
     }
 }
+
+#################################################################################
+#																				#
+#             				Retreat From India									#
+#																				#
+#################################################################################
+
+country_event = {
+	id = 97122991
+	title = "Retreat From India?" #Retreat From India?
+	desc = "Retreat From India"
+	picture = "india"
+	
+	is_triggered_only = yes
+	#mean_time_to_happen = { days = 3 }
+	option = {
+		name = "For the good of $COUNTRY$, we must retreat."
+		prestige_factor = 0.5
+		set_global_flag = british_dismantled
+		any_country = {
+			limit = {
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+				}
+				war_with = THIS
+			}
+			country_event = 97123991
+			#FIXED
+		}
+		any_country = {
+			limit = {
+				any_core = { owned_by = THIS }
+				exists = no
+				is_cultural_union = no
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+				}
+			}
+			country_event = 97124991
+			#FIXED
+		}
+		any_country = {
+			limit = {
+					
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+					tag = PNJ
+				}
+				exists = yes
+				#NOT = { war_with = THIS }
+			}
+			country_event = 800148
+			#TEST
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 97123991
+	title = "Britain Retreats From India!" #Britain Retreats From India!
+	desc = "Britain Retreats From India!"
+	picture = "administration"
+
+	is_triggered_only = yes
+	#mean_time_to_happen = { days = 3 }
+	option = {
+		name = "Hurrah!"
+		prestige = 50
+		any_country = {
+			limit = {
+				OR = {
+					tag = FROM
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+					alliance_with = FROM
+				}
+				war_with = THIS
+			}
+			end_war = THIS
+		}
+		random_owned = {
+			limit = {
+				owner = { civilized = yes }
+			}
+			FROM = {
+				any_owned = {
+					limit = { is_core = THIS }
+					secede_province = THIS
+				}
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = { civilized = no }
+			}
+			FROM = { release = THIS }
+		}
+		any_pop = {
+			limit = { 
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+				}
+				}
+			militancy = -4
+		}
+	}
+}
+
+# Independence event for Indian minors
+country_event = {
+	
+	id = 97124991
+	title = "$COUNTRY$ Granted Independence"
+	desc = "Freedom!"
+
+	is_triggered_only = yes
+	#mean_time_to_happen = { days = 3 }
+
+	option = {
+		name = "EVTOPTA96031" #Great
+		FROM = { release = THIS }
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+				}
+			}
+			relation = { who = THIS value = 100 }
+			diplomatic_influence = { who = THIS value = 200 }
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = { tag = FROM }
+				NOT = { 
+				any_greater_power = { 
+				
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+				} 
+				} 
+				}
+				neighbour = THIS
+			}
+			diplomatic_influence = { who = THIS value = 100 }
+		}
+		random_country = {
+			limit = {
+				is_greater_power = yes
+				NOT = { tag = FROM }
+				NOT = { any_greater_power = { 
+				
+				OR ={
+					is_culture_group = south_asian
+					is_culture_group = indo_iranian
+				}
+				} 
+				}
+				NOT = { any_greater_power = { neighbour = THIS } }
+				any_owned_province = { continent = asia }
+			}
+			diplomatic_influence = { who = THIS value = 50 }
+		}
+		FROM = {
+			diplomatic_influence = {
+				who = THIS
+				value = -200
+			}
+			relation = {
+				who = THIS
+				value = -200
+			}
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					has_global_flag = indian_call_to_union
+				}
+			}
+			owner = { set_country_flag = civilize_after_release }
+		}
+		random_owned = {
+			limit = {
+				owner = {
+					civilized = no
+					NOT = { has_global_flag = indian_call_to_union }
+					OR = {
+						tag = MAH
+						tag = MUG
+						tag = BNG
+						
+					}
+				}
+			}
+			owner = { set_country_flag = civilize_after_release }
+		}
+	}
+}

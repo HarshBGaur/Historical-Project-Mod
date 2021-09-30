@@ -6428,6 +6428,7 @@ province_event = {
         NOT = { trade_goods = tea }
         NOT = { has_province_modifier = switched_production }
         owner = {
+			NOT = { tag = HND }
             QNG = { war = no }
             war = no
             OR = {
