@@ -413,7 +413,7 @@ political_decisions = {
         }
         effect = {
             add_country_modifier = {
-                name = prussian_general_staff
+                name = prussian_general_hbg
                 duration = -1
             }
             prestige = 5
