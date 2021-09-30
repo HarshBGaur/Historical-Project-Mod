@@ -916,32 +916,73 @@ political_decisions = {
             prestige = 45
             nationalism_n_imperialism = 1
             war = no
-            HND = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        province_id = 1303
-                        province_id = 1312
-                        province_id = 1320
-                        is_core = KAL
-                        is_core = MAK
-                        is_core = AFG
-                        is_core = KAS
-                        owner = {
-                            #in_sphere = THIS
-                            OR = {
-								in_sphere = THIS
-								civilized = yes
-                                #is_vassal = no
-                                vassal_of = THIS
-                            }
-                            #war = no
-                            #is_mobilised = no
-                            #is_greater_power = no
-                        }
-                    }
-                }
-            }
+            #HND = {
+            #    all_core = {
+            #        OR = {
+            #            NOT = {owned_by = THIS}
+            #            province_id = 1303
+            #            province_id = 1312
+            #            province_id = 1320
+            #            is_core = KAL
+            #            is_core = MAK
+            #            is_core = AFG
+            #            is_core = KAS
+            #            owner = {
+            #                OR = {
+			#					in_sphere = THIS
+			#					civilized = yes
+			#					is_greater_power = yes
+            #                    vassal_of = THIS
+            #                }
+            #            }
+            #        }
+            #    }
+            #}
+			1236 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+			}
+			1247 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+			}
+			1251 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+			}
+			1275 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+			}
+			1297 = {
+				controller = {
+					NOT = {
+						tag = ENG
+						vassal_of = ENG
+						alliance_with = ENG
+					}
+				}
+			}
         }
 
         effect = {
@@ -982,13 +1023,8 @@ political_decisions = {
                     }
                     OR = {
                         is_culture_group = south_asian
-                        AND = {
-                            is_culture_group = indo_iranian
-                            NOT = {
-                                has_global_flag = pakistan_formed
-                                has_global_flag = pakistan_born
-                            }
-                        }
+                        is_culture_group = indo_iranian
+						is_culture_group = central_asian
                     }
                     in_sphere = THIS
                     OR = {
@@ -1014,6 +1050,21 @@ political_decisions = {
             add_country_modifier = {
                 name = shastar_vidya
                 duration = -1
+            }
+            casus_belli = {
+                target = AFG
+                type = establish_protectorate_casus_belli
+                months = 120
+            }
+            casus_belli = {
+                target = PER
+                type = establish_protectorate_casus_belli
+                months = 120
+            }
+            casus_belli = {
+                target = BUR
+                type = establish_protectorate_casus_belli
+                months = 120
             }
 
         }

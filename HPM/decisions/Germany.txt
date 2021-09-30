@@ -100,10 +100,10 @@ political_decisions = {
         }
 
         allow = {
-            regenerative_furnaces = 1
-            iron_breech_loaded_artillery = 1
-            state_n_government = 1
-            industrial_score = 150
+            #regenerative_furnaces = 1
+            #iron_breech_loaded_artillery = 1
+            #state_n_government = 1
+            #industrial_score = 150
             owns = 577
             owns = 578
             owns = 2561
@@ -118,7 +118,7 @@ political_decisions = {
 
         effect = {
             tech_school = prussian_tech_school
-            prestige = 5
+            prestige = 9
         }
     }
 
@@ -723,7 +723,7 @@ political_decisions = {
     reclaim_alsace_lorraine = {
         picture = reichsland_elsass
         potential = {
-            has_country_flag = lost_alsace_lorraine
+            #has_country_flag = lost_alsace_lorraine
             412 = {
                 NOT = {
                     is_core = GER
