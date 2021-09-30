@@ -1583,11 +1583,21 @@ ruhr_boom = {
     icon = 11
 }
 
+prussian_general_hbg = {
+    cb_generation_speed_modifier=0.5
+    badboy = -1
+    research_points_modifier = 1.5
+    land_unit_start_experience = 35
+    global_assimilation_rate = 2
+    supply_consumption = -0.25
+	RGO_output = 1.5
+    icon = 15
+}
 prussian_general_staff = {
-    org_regain = 0.2
-    land_organisation = 0.1
+    org_regain = 0.5
+    land_organisation = 0.4
     mobilisation_economy_impact = -0.25
-    land_unit_start_experience = 5
+    land_unit_start_experience = 15
     supply_consumption = -0.05
     mobilisation_size = 0.02
     icon = 15
