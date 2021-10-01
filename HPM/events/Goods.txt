@@ -834,7 +834,7 @@ province_event = {
 
     trigger = {
         year = 1846
-        province_id = 1143
+        province_id = 1162
         owner = {
             NOT = { has_global_flag = bb_oil_well_built }
         }

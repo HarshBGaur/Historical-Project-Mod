@@ -468,7 +468,7 @@ political_decisions = {
                 JAS = { in_sphere = THIS }
                 MEW = { in_sphere = THIS }
             }
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
         }
 
         allow = {
@@ -1431,7 +1431,7 @@ political_decisions = {
 			civilized = yes
 			ENG = {
 				war_with = THIS
-				war_exhaustion = 25
+				war_exhaustion = 1
 			}
 			1236 = {
 				controller = {

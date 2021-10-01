@@ -914,7 +914,7 @@ political_decisions = {
 
         allow = {
             prestige = 45
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
             war = no
             #HND = {
             #    all_core = {
@@ -1025,6 +1025,9 @@ political_decisions = {
                         is_culture_group = south_asian
                         is_culture_group = indo_iranian
 						is_culture_group = central_asian
+						tag = AFG
+						tag = TIB
+						tag = BUR
                     }
                     in_sphere = THIS
                     OR = {
@@ -1032,6 +1035,7 @@ political_decisions = {
                         vassal_of = THIS
                     }
                 }
+				set_country_flag = wants_to_unify
                 country_event = 11101
             }
             add_accepted_culture = avadhi
