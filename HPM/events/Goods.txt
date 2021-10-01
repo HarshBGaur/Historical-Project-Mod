@@ -798,8 +798,8 @@ province_event = {
     picture = ""
 
     trigger = {
-        year = 1846
-        province_id = 1593
+        year = 1876
+        province_id = 1593 #1593 - Tawang.txt
         owner = {
             NOT = { has_global_flag = aa_oil_well_built }
         }
@@ -833,8 +833,8 @@ province_event = {
     picture = ""
 
     trigger = {
-        year = 1846
-        province_id = 1162
+        year = 1876
+        province_id = 1162 #1162 - Bahrain.txt
         owner = {
             NOT = { has_global_flag = bb_oil_well_built }
         }
@@ -868,8 +868,8 @@ province_event = {
     picture = ""
 
     trigger = {
-        year = 1846
-        province_id = 1140
+        year = 1876
+        province_id = 1140 #Kerman of Kerman Persia
         owner = {
             NOT = { has_global_flag = cc_oil_well_built }
         }
@@ -897,46 +897,14 @@ province_event = {
 
 province_event = {
 
-    id = 11419996
-    title = "EVTNAME1141"
-    desc = "EVTDESC1141"
-    picture = ""
-
-    trigger = {
-        year = 1846
-        province_id = 1248
-        NOT = { trade_goods = rubber }
-    }
-
-    fire_only_once = yes
-
-    mean_time_to_happen = {
-        days = 1
-        modifier = {
-            factor = 5
-            is_colonial = yes
-        }
-    }
-
-    option = {
-        name = "EVTOPTA1141"
-        trade_goods = rubber
-        owner = {
-            prestige = 10
-        }
-    }
-}
-
-province_event = {
-
     id = 11419995
     title = "EVTNAME1141"
     desc = "EVTDESC1141"
     picture = ""
 
     trigger = {
-        year = 1846
-        province_id = 1319
+        year = 1886
+        province_id = 1319 #1319 - Trivandrum.txt of Kerala
         NOT = { trade_goods = rubber }
     }
 
@@ -956,6 +924,9 @@ province_event = {
         owner = {
             prestige = 10
         }
+    }
+	option = {
+        name = "Meh."
     }
 }
 
@@ -967,8 +938,8 @@ province_event = {
     picture = ""
 
     trigger = {
-        year = 1846
-        province_id = 1321
+        year = 1876
+        province_id = 2128 # Diego of Ceylon
         NOT = { trade_goods = rubber }
     }
 
@@ -988,6 +959,9 @@ province_event = {
         owner = {
             prestige = 10
         }
+    }
+	option = {
+        name = "Meh."
     }
 }
 
@@ -999,8 +973,8 @@ province_event = {
     picture = ""
 
     trigger = {
-        year = 1846
-        province_id = 1282
+        year = 1886
+        province_id = 1282 #Raigarh of  Nagpur
         NOT = { trade_goods = rubber }
     }
 
@@ -1020,5 +994,8 @@ province_event = {
         owner = {
             prestige = 10
         }
+    }
+	option = {
+        name = "Meh."
     }
 }

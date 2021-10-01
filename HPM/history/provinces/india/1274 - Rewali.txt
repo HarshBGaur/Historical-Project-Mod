@@ -3,5 +3,6 @@ controller = BUN
 add_core = BUN
 add_core = MUG
 add_core = HND
-trade_goods = grain
+trade_goods = cotton
+terrain = farmlands
 life_rating = 45 #32

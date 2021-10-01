@@ -3,4 +3,5 @@ controller = SIK
 add_core = SIK
 add_core = HND
 trade_goods = fruit
+terrain = hills
 life_rating = 45 #32

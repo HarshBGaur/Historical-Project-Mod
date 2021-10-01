@@ -3,4 +3,5 @@ controller = MUG
 add_core = MUG
 add_core = HND
 trade_goods = fruit
+terrain = forest 
 life_rating = 45 #32

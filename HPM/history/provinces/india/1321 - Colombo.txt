@@ -1,6 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = SRI
-trade_goods = rubber
+trade_goods = fish
+terrain = farmlands
 life_rating = 45 #35
 colonial = 2

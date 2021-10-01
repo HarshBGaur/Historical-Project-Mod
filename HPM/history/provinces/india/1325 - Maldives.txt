@@ -1,7 +1,8 @@
 owner = ENG
 controller = ENG
 add_core = MLD
-trade_goods = fish
+add_core = SRI
+trade_goods = iron
 life_rating = 45 #32
 colonial = 2
-terrain = small_island
+terrain = mining_district

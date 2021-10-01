@@ -4,5 +4,6 @@ add_core = HND
 add_core = BER
 add_core = MAH
 trade_goods = grain
+terrain = farmlands
 life_rating = 45 #32
 colonial = 2

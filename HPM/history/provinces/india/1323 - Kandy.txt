@@ -1,6 +1,7 @@
 owner = ENG
 controller = ENG
 add_core = SRI
-trade_goods = iron
+trade_goods = coal
+terrain = mining_district
 life_rating = 45 #33
 colonial = 2

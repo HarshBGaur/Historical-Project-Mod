@@ -3,4 +3,5 @@ controller = IND
 add_core = IND
 add_core = HND
 trade_goods = coal
+terrain = mining_district
 life_rating = 45 #32

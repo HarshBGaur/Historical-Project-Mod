@@ -2,5 +2,6 @@ owner = KUT
 controller = KUT
 add_core = KUT
 add_core = HND
-trade_goods = timber
+trade_goods = wool
+terrain = farmlands
 life_rating = 45 #32

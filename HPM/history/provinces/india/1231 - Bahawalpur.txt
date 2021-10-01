@@ -4,6 +4,7 @@ add_core = BHP
 add_core = PNJ
 add_core = HND
 trade_goods = dye
+terrain = farmlands
 life_rating = 45 #32
 1861.1.1 = {
     owner = ENG

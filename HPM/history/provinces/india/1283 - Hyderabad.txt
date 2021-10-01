@@ -2,5 +2,6 @@ owner = HYD
 controller = HYD
 add_core = HYD
 add_core = HND
-trade_goods = tropical_wood
+trade_goods = cotton
+terrain = farmlands
 life_rating = 45 #32

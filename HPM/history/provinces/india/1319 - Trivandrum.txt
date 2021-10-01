@@ -2,5 +2,6 @@ owner = TRA
 controller = TRA
 add_core = TRA
 add_core = HND
-trade_goods = rubber
+trade_goods = fish
+terrain = farmlands
 life_rating = 45 #32

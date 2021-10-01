@@ -2,7 +2,8 @@ owner = ENG
 controller = ENG
 add_core = HND
 add_core = BIH
-trade_goods = iron
+trade_goods = grain
+terrain = farmlands
 life_rating = 45 #32
 colonial = 2
 1861.1.1 = { railroad = 3 }

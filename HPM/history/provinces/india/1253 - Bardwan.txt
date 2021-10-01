@@ -3,6 +3,7 @@ controller = ENG
 add_core = HND
 add_core = BNG
 trade_goods = coal
+terrain = mining_district
 life_rating = 45 #32
 colonial = 2
 1861.1.1 = { railroad = 3 }

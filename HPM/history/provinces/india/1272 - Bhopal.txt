@@ -3,4 +3,5 @@ controller = BHO
 add_core = BHO
 add_core = HND
 trade_goods = silk
+terrain = farmlands
 life_rating = 45 #32

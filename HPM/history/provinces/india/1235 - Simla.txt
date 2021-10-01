@@ -5,5 +5,6 @@ add_core = MUG
 add_core = PNJ
 add_core = HND
 trade_goods = tea
+terrain = hills
 life_rating = 45 #32
 colonial = 2

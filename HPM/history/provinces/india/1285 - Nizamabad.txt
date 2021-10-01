@@ -3,4 +3,5 @@ controller = HYD
 add_core = HYD
 add_core = HND
 trade_goods = dye
+terrain = farmlands
 life_rating = 45 #32

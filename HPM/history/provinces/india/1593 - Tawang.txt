@@ -1,6 +1,8 @@
-owner = TIB
-controller = TIB
+owner = ENG
+controller = ENG
 add_core = TIB
 add_core = KCH
+add_core = HND
+add_core = ASM
 trade_goods = cattle
 life_rating = 45 #30

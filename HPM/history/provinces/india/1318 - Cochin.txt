@@ -2,5 +2,6 @@ owner = TRA
 controller = TRA
 add_core = HND
 add_core = TRA
-trade_goods = coal
+trade_goods = iron
+terrain = mining_district
 life_rating = 45 #32

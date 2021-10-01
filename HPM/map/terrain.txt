@@ -1,5 +1,10 @@
 terrain = 64
 
+# terrain = forest 			rgo ef+10
+# terrain = hills 			na
+# terrain = farmlands 		rgo sz+25 ef+20
+# terrain = mining_district rgo sz+2 ef+25
+# terrain = mountain 		farm-10 mine+20
 
 categories =  {
     ocean = {
@@ -70,7 +75,7 @@ categories =  {
         defence = 1
         color = { 91 123 45 }
         farm_rgo_size = 0.0
-        farm_rgo_eff = 0.0
+        farm_rgo_eff = 0.1
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
         supply_limit = 6
@@ -158,7 +163,7 @@ categories =  {
     farmlands = {
         movement_cost = 1.0
         color = { 137 104 165 }
-        farm_rgo_size = 0.0
+        farm_rgo_size = 0.2
         farm_rgo_eff = 0.25
         mine_rgo_size = 0.0
         mine_rgo_eff = 0.0
@@ -170,7 +175,7 @@ categories =  {
         color = { 137 104 165 }
         farm_rgo_size = 0.0
         farm_rgo_eff = 0.0
-        mine_rgo_size = 0.0
+        mine_rgo_size = 0.2
         mine_rgo_eff = 0.25
         supply_limit = 10
     }
@@ -179,15 +184,15 @@ categories =  {
         movement_cost = 1.4
         defence = 3
         color = { 117 108 119 }
-        farm_rgo_size = -0.2
+        farm_rgo_size = -0.1
         farm_rgo_eff = 0.0
-        mine_rgo_size = 0.1
+        mine_rgo_size = 0.2
         mine_rgo_eff = 0.0
         supply_limit = 2
 
         combat_width = -0.6
 
-        min_build_railroad = 3
+        min_build_railroad = 2
     }
 
     montane_tundra = {
@@ -233,7 +238,7 @@ categories =  {
         farm_rgo_eff = -0.5
         mine_rgo_size = -0.8
         mine_rgo_eff = -0.5
-        min_build_railroad = 6
+        min_build_railroad = 4
         min_build_fort = 1
         attrition = 2
     }
@@ -285,7 +290,7 @@ categories =  {
         farm_rgo_eff = 0.0
         mine_rgo_size = -0.95
         mine_rgo_eff = 0.0
-        min_build_railroad = 6
+        min_build_railroad = 4
         min_build_fort = 6
     }
 

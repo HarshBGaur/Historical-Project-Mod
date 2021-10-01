@@ -3,4 +3,5 @@ controller = MEW
 add_core = MEW
 add_core = HND
 trade_goods = iron
+terrain = mining_district
 life_rating = 45 #32

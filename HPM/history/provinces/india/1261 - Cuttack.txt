@@ -3,5 +3,6 @@ controller = ENG
 add_core = ORI
 add_core = HND
 trade_goods = coal
+terrain = mining_district
 life_rating = 45 #32
 colonial = 2

@@ -926,15 +926,15 @@ political_decisions = {
             clr_global_flag = pearl_hunting_season_started
             any_country = {
                 limit = { exists = yes owns = 1162 1162 = { trade_goods = precious_goods NOT = { has_province_modifier = pearl_season } } }
-                1162 = { trade_goods = fruit }
+                1162 = { trade_goods = oil }
             }
             any_country = {
                 limit = { exists = yes owns = 1165 1165 = { trade_goods = precious_goods NOT = { has_province_modifier = pearl_season } } }
-                1165 = { trade_goods = fish }
+                1165 = { trade_goods = precious_metal }
             }
             any_country = {
                 limit = { exists = yes owns = 1167 1167 = { trade_goods = precious_goods NOT = { has_province_modifier = pearl_season } } }
-                1167 = { trade_goods = fish }
+                1167 = { trade_goods = precious_metal }
             }
             any_country = {
                 limit = { exists = yes owns = 2664 2664 = { trade_goods = precious_goods NOT = { has_province_modifier = pearl_season } } }
@@ -942,11 +942,11 @@ political_decisions = {
             }
             any_country = {
                 limit = { exists = yes owns = 1071 1071 = { trade_goods = precious_goods NOT = { has_province_modifier = pearl_season } } }
-                1071 = { trade_goods = fish }
+                1071 = { trade_goods = precious_metal }
             }
             any_country = {
                 limit = { exists = yes owns = 1168 1168 = { trade_goods = precious_goods NOT = { has_province_modifier = pearl_season } } }
-                1168 = { trade_goods = fruit }
+                1168 = { trade_goods = precious_metal }
             }
         }
         ai_will_do = { factor = 1 }

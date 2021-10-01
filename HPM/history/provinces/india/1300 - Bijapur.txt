@@ -2,5 +2,6 @@ owner = MAH
 controller = MAH
 add_core = HND
 add_core = MAH
-trade_goods = coal
+trade_goods = timber
+terrain = forest
 life_rating = 45 #32

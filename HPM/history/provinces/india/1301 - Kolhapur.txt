@@ -2,5 +2,6 @@ owner = MAH
 controller = MAH
 add_core = HND
 add_core = MAH
-trade_goods = timber
+trade_goods = coal
+terrain = mining_district
 life_rating = 45 #32

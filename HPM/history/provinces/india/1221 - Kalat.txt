@@ -6,3 +6,4 @@ add_core = HND
 add_core = PNJ
 trade_goods = fruit
 life_rating = 45 #32
+terrain = hills
