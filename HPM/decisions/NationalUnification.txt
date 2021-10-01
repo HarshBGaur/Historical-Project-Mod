@@ -1051,21 +1051,21 @@ political_decisions = {
                 name = shastar_vidya
                 duration = -1
             }
-            casus_belli = {
-                target = AFG
-                type = establish_protectorate_casus_belli
-                months = 120
-            }
-            casus_belli = {
-                target = PER
-                type = establish_protectorate_casus_belli
-                months = 120
-            }
-            casus_belli = {
-                target = BUR
-                type = establish_protectorate_casus_belli
-                months = 120
-            }
+            #casus_belli = {
+            #    target = AFG
+            #    type = establish_protectorate_casus_belli
+            #    months = 120
+            #}
+            #casus_belli = {
+            #    target = PER
+            #    type = establish_protectorate_casus_belli
+            #    months = 120
+            #}
+            #casus_belli = {
+            #    target = BUR
+            #    type = establish_protectorate_casus_belli
+            #    months = 120
+            #}
 
         }
         ai_will_do = {

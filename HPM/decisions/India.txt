@@ -803,16 +803,16 @@ political_decisions = {
                 type = conquest
                 months = 12
             }
-            casus_belli = {
-                target = AFG
-                type = conquest
-                months = 120
-            }
-            casus_belli = {
-                target = PER
-                type = conquest
-                months = 120
-            }
+            #casus_belli = {
+            #    target = AFG
+            #    type = conquest
+            #    months = 120
+            #}
+            #casus_belli = {
+            #    target = PER
+            #    type = conquest
+            #    months = 120
+            #}
             casus_belli = {
                 target = KAL
                 type = conquest
