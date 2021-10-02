@@ -3,7 +3,7 @@ CRL = {
 }
 
 AFG = {
-    value = 110
+    value = 65
 }
 ENG = {
     value = 75
@@ -18,7 +18,7 @@ leader = {
     date = 1829.1.1
     personality = audacious
     background = natural_born_leader
-    prestige = 0.5
+    prestige = 0.75
 }
 
 leader = {
@@ -39,7 +39,7 @@ leader = {
 }
 
 leader = {
-    name = "Paolo Avitabile"
+    name = "Pulkit Jain"
     type = land
     date = 1827.1.1
     personality = audacious
@@ -48,7 +48,7 @@ leader = {
 }
 
 leader = {
-    name = "Jean-Francois Allard"
+    name = "Virat Mehera"
     type = land
     date = 1822.1.1
     personality = intelligent
@@ -57,21 +57,21 @@ leader = {
 }
 
 leader = {
-    name = "Jean-Baptiste Ventura"
+    name = "Yashvardhan Rathode"
     type = land
     date = 1822.1.1
     personality = audacious
-    background = drillmaster
-    prestige = 0.1
+    background = cursed_luck
+    prestige = 0.4
 }
 
 leader = {
-    name = "Alexander Gardner"
+    name = "Sikandar Soni"
     type = land
     date = 1831.1.1
     personality = audacious
-    background = artillerist
-    prestige = 0.1
+    background = cursed_luck
+    prestige = 0.4
 }
 
 army = {

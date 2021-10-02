@@ -1619,12 +1619,12 @@ political_decisions = {
         }
 
         allow = {
-            state_n_government = 1
-            vote_franschise = none_voting
-            NOT = { press_rights = free_press }
-            NOT = { has_country_modifier = law_changed_by_force }
+            #state_n_government = 1
+            #vote_franschise = none_voting
+            #NOT = { press_rights = free_press }
+            #NOT = { has_country_modifier = law_changed_by_force }
             NOT = { ruling_party_ideology = liberal }
-            NOT = { ruling_party_ideology = conservative }
+            #NOT = { ruling_party_ideology = conservative }
             NOT = { ruling_party_ideology = socialist }
 
             OR = {
@@ -1645,7 +1645,7 @@ political_decisions = {
 
         effect = {
             clr_country_flag = change_border_policy
-            add_country_modifier = { name = law_changed_by_force duration = 3650 }
+            add_country_modifier = { name = law_changed_by_force duration = 365 }
             political_reform = closed_borders
             any_pop = { consciousness = 4 militancy = 2 }
         }
