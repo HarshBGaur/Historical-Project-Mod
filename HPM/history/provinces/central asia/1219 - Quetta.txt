@@ -5,4 +5,5 @@ add_core = AFG
 add_core = PNJ
 add_core = HND
 trade_goods = cotton
+terrain = hills
 life_rating = 35
