@@ -308,7 +308,7 @@ political_decisions = {
         }
         allow = {
             war = no
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
             GER = {
                 all_core = {
                     OR = {
@@ -427,7 +427,7 @@ political_decisions = {
 
         allow = {
             prestige = 45
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
             war = no
             cultural_union = {
                 all_core = {
@@ -488,7 +488,7 @@ political_decisions = {
 
         allow = {
             prestige = 45
-            nationalism_n_imperialism = 1
+            #nationalism_n_imperialism = 1
             is_greater_power = yes
             war = no
             GER = {
@@ -1096,9 +1096,9 @@ political_decisions = {
                 change_province_name = "Kolmar"
             }
             409 = {
-                change_province_name = "Straßburg"
+                change_province_name = "Straï¿½burg"
                 state_scope = {
-                    change_region_name = "Elsaß-Lothringen"
+                    change_region_name = "Elsaï¿½-Lothringen"
                 }
             }
             prestige = 5
